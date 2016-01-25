@@ -1,0 +1,218 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:CurrentSinkOrSwim
+LIBS:CurrentSinkOrSwim-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 56A5BC2B
+P 8350 5300
+F 0 "R?" V 8430 5300 50  0000 C CNN
+F 1 ".1" V 8350 5300 50  0000 C CNN
+F 2 "" V 8280 5300 30  0000 C CNN
+F 3 "" H 8350 5300 30  0000 C CNN
+F 4 "AC01000001007JA100" V 8350 5300 60  0001 C CNN "MPN"
+	1    8350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LMV358 U?
+U 1 1 56A5BC38
+P 5800 4200
+F 0 "U?" H 5750 4400 60  0000 L CNN
+F 1 "LMV358" H 5750 3950 60  0000 L CNN
+F 2 "" H 5800 4200 60  0000 C CNN
+F 3 "" H 5800 4200 60  0000 C CNN
+	1    5800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 56A5BC40
+P 8250 4200
+F 0 "Q?" H 8550 4250 50  0000 R CNN
+F 1 "BUK9575" H 8900 4150 50  0000 R CNN
+F 2 "" H 8450 4300 50  0000 C CNN
+F 3 "" H 8250 4200 50  0000 C CNN
+F 4 "BUK9575-100A,127" H 8250 4200 60  0001 C CNN "MPN"
+	1    8250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 56A5BC47
+P 3800 5150
+F 0 "R?" V 3880 5150 50  0000 C CNN
+F 1 "R" V 3800 5150 50  0000 C CNN
+F 2 "" V 3730 5150 50  0000 C CNN
+F 3 "" H 3800 5150 50  0000 C CNN
+	1    3800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56A5BC4E
+P 5700 4700
+F 0 "#PWR?" H 5700 4450 50  0001 C CNN
+F 1 "GND" H 5700 4550 50  0000 C CNN
+F 2 "" H 5700 4700 60  0000 C CNN
+F 3 "" H 5700 4700 60  0000 C CNN
+	1    5700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 56A5BC54
+P 3800 4350
+F 0 "RV?" H 3800 4250 50  0000 C CNN
+F 1 "POT" H 3800 4350 50  0000 C CNN
+F 2 "" H 3800 4350 50  0000 C CNN
+F 3 "" H 3800 4350 50  0000 C CNN
+	1    3800 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 56A5BC5B
+P 5000 3500
+F 0 "C?" H 5025 3600 50  0000 L CNN
+F 1 "C" H 5025 3400 50  0000 L CNN
+F 2 "" H 5038 3350 50  0000 C CNN
+F 3 "" H 5000 3500 50  0000 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56A5BC62
+P 5000 3800
+F 0 "#PWR?" H 5000 3550 50  0001 C CNN
+F 1 "GND" H 5000 3650 50  0000 C CNN
+F 2 "" H 5000 3800 50  0000 C CNN
+F 3 "" H 5000 3800 50  0000 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 5450 8350 5900
+Wire Wire Line
+	8350 4400 8350 5150
+Wire Wire Line
+	5700 4700 5700 4600
+Wire Wire Line
+	3800 4600 3800 5000
+Wire Wire Line
+	6650 4950 5100 4950
+Wire Wire Line
+	5100 4950 5100 4300
+Wire Wire Line
+	5100 4300 5300 4300
+Connection ~ 8350 4550
+Wire Wire Line
+	6650 4950 6650 4550
+Wire Wire Line
+	6650 4550 8350 4550
+Wire Wire Line
+	5700 3200 5700 3800
+Wire Wire Line
+	3800 5300 3800 5650
+Wire Wire Line
+	3800 5650 8350 5650
+Connection ~ 8350 5650
+Connection ~ 5700 3200
+Wire Wire Line
+	5300 4100 4650 4100
+Wire Wire Line
+	4650 4100 4650 4750
+Wire Wire Line
+	4650 4750 3800 4750
+Connection ~ 3800 4750
+Wire Wire Line
+	3950 3200 5700 3200
+Connection ~ 3950 3200
+Wire Wire Line
+	5000 3800 5000 3650
+Wire Wire Line
+	5000 3350 5000 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	8350 2100 8350 4000
+Text GLabel 3650 1850 0    60   Input ~ 0
+2.7V
+Wire Wire Line
+	3650 1850 3950 1850
+Connection ~ 3950 1850
+Wire Wire Line
+	3950 1850 3950 4350
+Text HLabel 9150 2100 2    60   Input ~ 0
+Current_Sink+
+Wire Wire Line
+	8350 2100 9150 2100
+$Comp
+L R R?
+U 1 1 56A5BE98
+P 6700 4200
+F 0 "R?" V 6780 4200 50  0000 C CNN
+F 1 "1k" V 6700 4200 50  0000 C CNN
+F 2 "" V 6630 4200 50  0000 C CNN
+F 3 "" H 6700 4200 50  0000 C CNN
+	1    6700 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 4200 6550 4200
+Wire Wire Line
+	6850 4200 8050 4200
+Wire Wire Line
+	7550 4200 7550 1700
+Wire Wire Line
+	7550 1700 9150 1700
+Connection ~ 7550 4200
+Text HLabel 9150 1700 2    60   Input ~ 0
+FET_Gate
+Text HLabel 8550 5900 2    60   Input ~ 0
+Current_Sink-
+Wire Wire Line
+	8350 5900 8550 5900
+$EndSCHEMATC
