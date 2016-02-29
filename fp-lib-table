@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name current)(type KiCad)(uri /home/kendalld/PCBs/CurrnetSinkOrSwim/Current.pretty)(options "")(descr ""))
+)
