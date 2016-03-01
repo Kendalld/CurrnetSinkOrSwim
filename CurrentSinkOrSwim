@@ -1,0 +1,20 @@
+Reference, Quantity, Value, Footprint, Datasheet, MPN
+C201 C301 ,2,C,Capacitors_SMD:C_0805_HandSoldering,
+C401 C402 ,2,.1,Capacitors_SMD:C_0805_HandSoldering,
+D201 ,1,1N4148,Diodes_SMD:SOD-123,,1N4148WT-7
+P102 ,1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,
+P101 P103 ,2,CONN_01X02,Connect:AK300-2,,OSTTCD22162
+P301 ,1,HEATSINK,current:FA-T220-38E,,FA-T220-38E-ND
+Q301 ,1,BUK9575,TO_SOT_Packages_THT:TO-220_Neutral123_Vertical,,BUK9575-100A,127
+R201 ,1,28.7K,Resistors_SMD:R_0805_HandSoldering,,Value
+R202 ,1,9K,Resistors_SMD:R_0805_HandSoldering,
+R203 ,1,1K,Resistors_SMD:R_0805_HandSoldering,,Value
+R301 ,1,68k,Resistors_SMD:R_0805_HandSoldering,
+R302 ,1,1k,Resistors_SMD:R_0805_HandSoldering,
+R303 ,1,.1,Resistors_ThroughHole:Resistor_Horizontal_RM15mm,,AC01000001007JA100
+R401 ,1,0,Resistors_SMD:R_0805_HandSoldering,
+R402 ,1,27k,Resistors_SMD:R_0805_HandSoldering,
+R403 ,1,21.6k,Resistors_SMD:R_0805_HandSoldering,
+RV201 RV301 ,2,10K,current:P090L-02F25BR10K,
+U201 ,1,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT
+U401 ,1,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R

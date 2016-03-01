@@ -1,24 +1,20 @@
-Reference, Value, Footprint, Datasheet, MPN
-P103,CONN_01X02,Connect:AK300-2,,OSTTCD22162
-P102,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,
-P101,CONN_01X02,Connect:AK300-2,,OSTTCD22162
-U201,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT
-R201,28.7K,Resistors_SMD:R_0805_HandSoldering,,Value
-RV201,10K,current:P090L-02F25BR10K,
-C201,C,Capacitors_SMD:C_0805_HandSoldering,
-D201,1N4148,Diodes_SMD:SOD-123,,1N4148WT-7
-R202,9K,Resistors_SMD:R_0805_HandSoldering,
-R203,1K,Resistors_SMD:R_0805_HandSoldering,,Value
-R303,.1,Resistors_ThroughHole:Resistor_Horizontal_RM15mm,,AC01000001007JA100
-Q301,BUK9575,TO_SOT_Packages_THT:TO-220_Neutral123_Vertical,,BUK9575-100A,127
-R301,68k,Resistors_SMD:R_0805_HandSoldering,
-RV301,10K,current:P090L-02F25BR10K,
-C301,C,Capacitors_SMD:C_0805_HandSoldering,
-R302,1k,Resistors_SMD:R_0805_HandSoldering,
-P301,HEATSINK,current:FA-T220-38E,,FA-T220-38E-ND
-C402,.1,Capacitors_SMD:C_0805_HandSoldering,
-C401,.1,Capacitors_SMD:C_0805_HandSoldering,
-R401,0,Resistors_SMD:R_0805_HandSoldering,
-U401,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R
-R402,27k,Resistors_SMD:R_0805_HandSoldering,
-R403,21.6k,Resistors_SMD:R_0805_HandSoldering,
+Reference, Quantity, Value, Footprint, Datasheet, MPN,,Ordered?
+"C201, C301 ",2,C,Capacitors_SMD:C_0805_HandSoldering,,,,x
+"C401, C402 ",2,0.1,Capacitors_SMD:C_0805_HandSoldering,,,,x
+D201 ,1,1N4148,Diodes_SMD:SOD-123,,1N4148WT-7,,x
+P102 ,1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,,,x
+"P101, P103 ",2,CONN_01X02,Connect:AK300-2,,OSTTC022162,,x
+P301 ,1,HEATSINK,current:FA-T220-38E,,FA-T220-38E-ND,,x
+Q301 ,1,BUK9575,TO_SOT_Packages_THT:TO-220_Neutral123_Vertical,,BUK9575-100A,127,x
+R201 ,1,28.7K,Resistors_SMD:R_0805_HandSoldering,,,,x
+R202 ,1,9K,Resistors_SMD:R_0805_HandSoldering,,,,9.9k
+R203 ,1,1K,Resistors_SMD:R_0805_HandSoldering,,,,x
+R301 ,1,68k,Resistors_SMD:R_0805_HandSoldering,,,,x
+R302 ,1,1k,Resistors_SMD:R_0805_HandSoldering,,,,x
+R303 ,1,0.1,Resistors_ThroughHole:Resistor_Horizontal_RM15mm,,AC01000001007JA100,,x
+R401 ,1,0,Resistors_SMD:R_0805_HandSoldering,,,,x
+R402 ,1,27k,Resistors_SMD:R_0805_HandSoldering,,,,x
+R403 ,1,21.6k,Resistors_SMD:R_0805_HandSoldering,,,,x
+"RV201, RV301 ",2,10K,current:P090L-02F25BR10K,,P090L-02F25BR10K,,x
+U201 ,1,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT,,x
+U401 ,1,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R,,x
